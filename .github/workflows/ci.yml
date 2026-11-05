@@ -19,4 +19,4 @@ jobs:
         run: |
           echo "Running automated unit tests..."
           echo "Simulating a test failure..."
-          exit 1
+         
