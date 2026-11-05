@@ -18,4 +18,5 @@ jobs:
       - name: Run Test Step
         run: |
           echo "Running automated unit tests..."
-          echo "All tests passed successfully!"
+          echo "Simulating a test failure..."
+          exit 1
